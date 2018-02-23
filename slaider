@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+
+<table border="1" height="800" width="300%">
+  <tr>
+    <td id="s-1" width="33,33%" align="center" ><a href="#s-3"> <font size="30" color="black">&#10096; </font></a><img src="albume/images/1.jpg" alt=""  width="60%"><a href="#s-2"> 
+      <font size="30" color="black">&#10097; </font></a></td>;
+
+    <td id="s-2" width="33,33%"  align="center"><a href="#s-1"> <font size="30" color="black"> &#10096;<font> </a><img src="albume/images/2.jpg" alt="" width="60%"><a href="#s-3"> <font size="30" color="black"> &#10097; </font> </a></td>
+
+    <td id="s-3" width="33,33%" align="center"><a href="#s-2"><font size="30" color="black"> &#10096; </font></a><img src="albume/images/3.jpg" alt="" width="60%"><a href="#s-1"><font size="30" color="black"> &#10097;</font> </a></td>
+  </tr>
+</table>
+
+
+</body>
+</html>
