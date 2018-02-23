@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>Таблица размеров</title>
+ </head>
+ <body>
+  <table width="880" border="1" height="800" align="center" summary="SEO PENTRU">
+
+     <tr>
+       <td colspan="" width="280" height="100"  align="center">LOGO 280*100</td>
+       <td colspan="" width="300" height="100"  align="center">HEADER 300*100</td>
+       <td colspan="" width="300" height="100"  align="center">USER MENU 300*100</td>
+     </tr>
+     <tr>
+      <td  rowspan="2" colspan="" width="280" height="600"  align="center">SIDEBAR 280*600</td>
+
+
+       <td colspan="2"  width="600" height="600" align="center">CONTENT 600*600</td>
+
+     </tr>
+     <tr>
+
+       <td colspan="" width="300" height="100"  align="center">FOOTER BANNER 300*100</td>
+       <td colspan="" width="300" height="100" align="center">SOCIALS 300*100</td>
+     </tr>
+   </table>
+ </body>
