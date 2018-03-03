@@ -4,50 +4,117 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>BUTTON</title>
+    <style>
+    body {
+        background-color: antiquewhite;
+    }
+    button{
+        border: 1px solid #1417dc;
+        margin-right: 10px;
+        margin-top: 10px;
+        width: 115px;
+        height: 40px;
+    }
+    .row{
+        border-radius: 100px;
+
+    }
+    
+    #austria{
+        background-color: hsl(115, 94%, 51%);
+        transition: background-color 1s ease-in;
+         /*cursor: pointer; opacity*/
+                
+    }
+    #anglia{
+        background-color: #fcff64;
+        transition: background-color 1s ease-in;
+         /*cursor: pointer; opacity*/
+    }
+    #belgia{
+        background-color: #87ff6a;
+        transition: background-color 1s ease-in;
+         /*cursor: pointer; opacity*/
+    }
+    #cehia{
+        background-color: #ffffff;
+        transition: background-color 1s ease-in;
+        
+         /*cursor: pointer; opacity*/
+    }
+    #romania{
+        background-color: #ffffff;
+        transition: background-color 1s ease-in;
+        
+         /*cursor: pointer; opacity*/
+    }
+    #franta{
+        background-color: #ffffff;
+        transition: background-color 1s ease-in;
+        
+         /*cursor: pointer; opacity*/
+    }
+    #italia{
+        background-color: #ffffff;
+        transition: background-color 1s ease-in;
+        
+         /*cursor: pointer; opacity*/
+    }
+    #germania{
+        background-color: #ffffff;
+        transition: background-color 1s ease-in;
+        
+         /*cursor: pointer; opacity*/
+    }
+    #olanda{
+        background-color: #ffffff;
+        transition: background-color 1s ease-in;
+        
+         /*cursor: pointer; opacity*/
+    }
+    #portugalia{
+        background-color: #ffffff;
+        transition: background-color 1s ease-in;
+        
+         /*cursor: pointer; opacity*/
+    }
+    #spania{
+        background-color: #ffffff;
+        transition: background-color 1s ease-in;
+        
+         /*cursor: pointer; opacity*/
+    }
+    #suedia{
+        background-color: #38e4d5;
+        transition: background-color 1s ease-in;
+        
+         /*cursor: pointer; opacity*/        
+    }
+    .preview:hover {
+        background-color: #ff0000 !important;
+        }
+        /* Turn off parallax scrolling for tablets and phones */
+    @media only screen and (max-device-width: 1024px) {
+    .img-1, .img-2, .img-3 {
+        background-attachment: scroll;
+    }
+}
+    </style>
 </head>
 <body>    
-<nav>
-        <button type="button" name="myButton" formtarget="_self">Click me!</button>
-        <br>
-        <button type="button" name="myButton" formtarget="_self" style="box-shadow: 8px 7px 13px 1px #2d7991; border-radius: 39px; background-color: red; border:3px solid; padding: 15px; opacity: 0.5;">Austria</button><br>
-
-        <button type="button" name="myButton" formtarget="_self" style="box-shadow: 8px 7px 13px 1px #2d7991; border-radius: 39px; background-color:  rgb(5, 211, 5); border:3px solid; padding: 15px; opacity: 0.5;">Anglia</button> <br>
-
-        <button type="button" name="myButton" formtarget="_self" style="box-shadow: 8px 7px 13px 1px #2d7991; border-radius: 39px; background-color:  rgb(109, 111, 223); border:3px solid; padding: 15px; opacity: 0.5;">Belgia</button><br>
-
-        <button type="button" name="myButton" formtarget="_self" style="box-shadow: 8px 7px 13px 1px #2d7991; border-radius: 39px; background-color:  rgba(248, 175, 18, 0.911); border:3px solid; padding: 15px; opacity: 0.5;">Danemarca</button><br>
-
-        <button type="button" name="myButton" formtarget="_self" style="box-shadow: 8px 7px 13px 1px #2d7991; border-radius: 39px; background-color:  red; border:3px solid; padding: 15px; opacity: 0.5;">Franta</button><br>
-
-        <button type="button" name="myButton" formtarget="_self" style="box-shadow: 8px 7px 13px 1px #2d7991; border-radius: 39px; background-color:  #33ff00; border:3px solid; padding: 15px; opacity: 0.5;">Germania</button><br>
-
-        <button type="button" name="myButton" formtarget="_self" style="box-shadow: 8px 7px 13px 1px #2d7991; border-radius: 39px; background-color:  #ff5e00; border:3px solid; padding: 15px; opacity: 0.5;">Cehia</button><br>
-
-        <button type="button" name="myButton" formtarget="_self" style="box-shadow: 8px 7px 13px 1px #2d7991; border-radius: 39px; background-color:  #3c02573a; border:3px solid; padding: 15px; opacity: 0.5;">Romania</button><br>
-
-        <button type="button" name="myButton" formtarget="_self" style="box-shadow: 8px 7px 13px 1px #2d7991; border-radius: 39px; background-color:  #f700ff; border:3px solid; padding: 15px; opacity: 0.5;">Olanda</button> <br>   
-
-        <button type="button" name="myButton" formtarget="_self" style="box-shadow: 8px 7px 13px 1px #2d7991; border-radius: 39px; background-color:  #ffe600; border:3px solid; padding: 15px; opacity: 0.5;">Portugalia</button><br>
-
-        <button type="button" name="myButton" formtarget="_self" style="box-shadow: 8px 7px 13px 1px #2d7991; border-radius: 39px; background-color:  #00ccff; border:3px solid; padding: 15px; opacity: 0.5;">Spania</button><br>
-
-        <button type="button" name="myButton" formtarget="_self" style="box-shadow: 8px 7px 13px 1px #2d7991; border-radius: 39px; background-color:  #ff004c; border:3px solid; padding: 15px; opacity: 0.5;">Suedia</button><br>
-    <ul>
-        <li>Austria</li>
-        <li>Anglia</li>
-        <li>Belgia</li>
-        <li>Franta</li>
-        <li>Italia</li>
-        <li>Germania</li>
-        <li>Olanda</li>
-        <li>Portugalia</li>
-        <li>Spania</li>
-        <li>Suedia</li>
-    </ul>
-</nav>
-
-
+    <button class="row col preview" id="first last austria"><a href="1.html"1></a>Austria</button>
+    <button class="row col preview" id="first last anglia"><a href="1.html"2></a>Anglia</button>
+    <button class="row col preview" id="first last belgia"><a href="1.html"3></a>Belgia</button>
+    <button class="row col preview" id="first last cehia"><a href="1.html"4></a>Cehia</button>
+    <button class="row col preview" id="first last romania"><a href="1.html"5></a>Romania</button>
+    <button class="row col preview" id="first last franta"><a href="1.html"6></a>Franta</button>
+    <button class="row col preview" id="first last italia"><a href="1.html"7></a>Italia</button>
+    <button class="row col preview" id="first last germania"><a href="1.html"8></a>Germania</button>
+    <button class="row col preview" id="first last olanda"><a href="1.html"9></a>Olanda</button>
+    <button class="row col preview" id="first last portugalia"><a href="1.html"10></a>Portugalia</button>
+    <button class="row col preview" id="first last spania"><a href="1.html"11></a>Spania</button>
+    <button class="row col preview" id="first last suedia"><a href="1.html"12></a>Suedia</button>
     
 </body>
 </html>
