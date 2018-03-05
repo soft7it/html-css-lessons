@@ -7,114 +7,138 @@
     <title>BUTTON</title>
     <style>
     body {
-        background-color: antiquewhite;
+        background-color: rgb(255, 254, 254);
     }
     button{
         border: 1px solid #1417dc;
         margin-right: 10px;
-        margin-top: 10px;
+        margin-top: 80px;
         width: 115px;
-        height: 40px;
+        height: 60px;
+        border-radius: 100px;
+        font-size: 18px;
+       
+        
     }
     .row{
-        border-radius: 100px;
+        text-align: center;
+        font: Arial, sans-serif;
+        text-shadow: rgb(255, 255, 255) 0 0 3px;
+        letter-spacing: 1px;
+       
 
     }
     
-    #austria{
-        background-color: hsl(115, 94%, 51%);
+    .austria{
+        background-image: url(../images/au.jpg);
+        background-size: 100% 100%;
         transition: background-color 1s ease-in;
          /*cursor: pointer; opacity*/
+        
                 
     }
-    #anglia{
-        background-color: #fcff64;
+    .anglia{
+        background-image: url(../images/ang.jpg);
+        background-size: 100% 100%;
         transition: background-color 1s ease-in;
+        letter-spacing: 2px;
          /*cursor: pointer; opacity*/
     }
-    #belgia{
-        background-color: #87ff6a;
+    .belgia{
+        background-image: url(../images/bel.jpg);
+        background-size: 100% 100%;
         transition: background-color 1s ease-in;
+        letter-spacing: 4px;
          /*cursor: pointer; opacity*/
     }
-    #cehia{
-        background-color: #ffffff;
+    .cehia{
+        background-image: url(../images/ceh.jpg);
+        background-size: 100% 100%;
+        transition: background-color 1s ease-in;
+        letter-spacing: 4px;
+         /*cursor: pointer; opacity*/
+    }
+    .romania{
+        background-image: url(../images/rom.jpg);
+        background-size: 100% 100%;
         transition: background-color 1s ease-in;
         
          /*cursor: pointer; opacity*/
     }
-    #romania{
-        background-color: #ffffff;
+    .franta{
+        background-image: url(../images/fra.jpg);
+        background-size: 100% 100%;
+        transition: background-color 1s ease-in;
+        letter-spacing: 4px;
+         /*cursor: pointer; opacity*/
+    }
+    .italia{
+        background-image: url(../images/ita.jpg);
+        background-size: 100% 100%;
+        transition: background-color 1s ease-in;
+        letter-spacing: 4px;
+         /*cursor: pointer; opacity*/
+    }
+    .germania{
+        background-image: url(../images/ger.jpg);
+        background-size: 100% 100%;
         transition: background-color 1s ease-in;
         
          /*cursor: pointer; opacity*/
     }
-    #franta{
-        background-color: #ffffff;
+    .olanda{
+        background-image: url(../images/ola.jpg);
+        background-size: 100% 100%;
+        transition: background-color 1s ease-in;
+        letter-spacing: 2px;
+         /*cursor: pointer; opacity*/
+    }
+    .portugalia{
+        background-image: url(../images/por.jpg);
+        background-size: 100% 100%;
         transition: background-color 1s ease-in;
         
          /*cursor: pointer; opacity*/
     }
-    #italia{
-        background-color: #ffffff;
+    .spania{
+        background-image: url(../images/spa.jpg);
+        background-size: 100% 100%;
         transition: background-color 1s ease-in;
-        
+        letter-spacing: 2px;
          /*cursor: pointer; opacity*/
     }
-    #germania{
-        background-color: #ffffff;
+    .suedia{
+        background-image: url(../images/sue.jpg);
+        background-size: 100% 100%;
         transition: background-color 1s ease-in;
-        
-         /*cursor: pointer; opacity*/
-    }
-    #olanda{
-        background-color: #ffffff;
-        transition: background-color 1s ease-in;
-        
-         /*cursor: pointer; opacity*/
-    }
-    #portugalia{
-        background-color: #ffffff;
-        transition: background-color 1s ease-in;
-        
-         /*cursor: pointer; opacity*/
-    }
-    #spania{
-        background-color: #ffffff;
-        transition: background-color 1s ease-in;
-        
-         /*cursor: pointer; opacity*/
-    }
-    #suedia{
-        background-color: #38e4d5;
-        transition: background-color 1s ease-in;
-        
+        letter-spacing: 2px;
          /*cursor: pointer; opacity*/        
     }
     .preview:hover {
-        background-color: #ff0000 !important;
+        background-color: #ffffff !important;
+        font-size: 22px;
+        /*font: 2em Arial, sans-serif;*/
+        text-shadow: rgb(252, 249, 249) 1px 1px 0, rgb(255, 255, 255) -1px -1px 0, 
+                     rgb(255, 255, 255) -1px 1px 0, rgb(255, 255, 255) 1px -1px 0;
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
         }
-        /* Turn off parallax scrolling for tablets and phones */
-    @media only screen and (max-device-width: 1024px) {
-    .img-1, .img-2, .img-3 {
-        background-attachment: scroll;
-    }
-}
+    
+  
     </style>
 </head>
 <body>    
-    <button class="row col preview" id="first last austria"><a href="1.html"1></a>Austria</button>
-    <button class="row col preview" id="first last anglia"><a href="1.html"2></a>Anglia</button>
-    <button class="row col preview" id="first last belgia"><a href="1.html"3></a>Belgia</button>
-    <button class="row col preview" id="first last cehia"><a href="1.html"4></a>Cehia</button>
-    <button class="row col preview" id="first last romania"><a href="1.html"5></a>Romania</button>
-    <button class="row col preview" id="first last franta"><a href="1.html"6></a>Franta</button>
-    <button class="row col preview" id="first last italia"><a href="1.html"7></a>Italia</button>
-    <button class="row col preview" id="first last germania"><a href="1.html"8></a>Germania</button>
-    <button class="row col preview" id="first last olanda"><a href="1.html"9></a>Olanda</button>
-    <button class="row col preview" id="first last portugalia"><a href="1.html"10></a>Portugalia</button>
-    <button class="row col preview" id="first last spania"><a href="1.html"11></a>Spania</button>
-    <button class="row col preview" id="first last suedia"><a href="1.html"12></a>Suedia</button>
+    <button class="row col preview austria" id="first last" ><a href="1.html"1></a>Austria</button>
+    <button class="row col preview anglia" id="first last"><a href="1.html"2></a>Anglia</button>
+    <button class="row col preview belgia" id="first last"><a href="1.html"3></a>Belgia</button>
+    <button class="row col preview cehia" id="first last"><a href="1.html"4></a>Cehia</button>
+    <button class="row col preview romania" id="first last"><a href="1.html"5></a>Romania</button>
+    <button class="row col preview franta" id="first last"><a href="1.html"6></a>Franta</button>
+    <button class="row col preview italia" id="first last"><a href="1.html"7></a>Italia</button>
+    <button class="row col preview germania" id="first last"><a href="1.html"8></a>Germania</button>
+    <button class="row col preview olanda" id="first last"><a href="1.html"9></a>Olanda</button>
+    <button class="row col preview portugalia" id="first last"><a href="1.html"10></a>Portugalia</button>
+    <button class="row col preview spania" id="first last"><a href="1.html"11></a>Spania</button>
+    <button class="row col preview suedia" id="first last"><a href="1.html"12></a>Suedia</button>
     
 </body>
 </html>
