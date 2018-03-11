@@ -10,12 +10,43 @@
     margin:0px;
   }
 
+.logo{
+  width: 300px;
+  height: 57px;
+  margin-left: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;  
+  
+}
+.container-top{
+  background-color: rgb(230, 248, 228);  
+    
+}
+.telup{
+  font-size: 20px;
+  float: right;
+  color: black;
+  margin-top: 22px;
+  margin-right: 10px;
+  text-shadow: 1px 1px 0px #f75900;
+}
+
+ .tel-up{
+   font-size: 25px;
+   float: right;
+   color: black;
+   margin-top: 25px;
+   margin-right: 70px;  
+  padding-right: 10px;
+  text-shadow: 1px 1px 0px #f75900;
+ }
+
 .menu{
   background-color: #4CAF50;
   height:57px;
   box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),
-             0 2px 10px 0 rgba(0,0,0,0.12);
-  /*margin-top: 70px;*/
+             0 2px 10px 0 rgb(255, 153, 0);
+  margin-bottom: 0%;
   
 
 }
@@ -35,14 +66,13 @@ ul{
   float:left;
   padding: 20px;
   text-transform: uppercase;
-  
+  margin: 0%;
+    
 }
 
 .li-1:hover{
     background-color: white;
-    height: 50px;
-    color: black;
-    
+    color: black;    
 
 }
 
@@ -50,7 +80,7 @@ ul{
 a{    
   text-decoration: none;
   color: white;
-  
+  margin: 20px;  
 }
 
 a:hover{
@@ -61,6 +91,8 @@ a:hover{
 ul:first-child{
   float:left;
   list-style: none;
+  padding: none;
+  margin: none;
   
 }
 
@@ -70,47 +102,23 @@ ul:last-child{
   
 }
 
-img{
-  width: 300px;
-  height: 57px;
-  margin-left: 50px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  
-}
 
-.logo{
-  
-  
-  
+
+
+.imgful-1{
+ width: 100%;
 }
-.container-top{
-  background-color: rgb(230, 248, 228);
-  
-    
-}
-.telup{
-  font-size: 20px;
-  float: right;
-  color: black;
-  margin-top: 15px;
-  margin-right: 10px;
-  
-}
- .tel-up{
-   font-size: 25px;
-   float: right;
-   color: black;
-   margin-top: 15px;
-   margin-right: 10px;
- }
 
 .imgful{
-  width: 100%;
-  height: 800px;
-  border: 0px;
-  margin: 0px;
+  width: 33%;
+  height: 300px;
+  border-right-color: 1px solid chocolate;
+  margin-bottom: 0%;
+  margin-top: 3px;
+  
+  
 }
+
  iframe{
    width: 100%;
    height: 350px;
@@ -136,13 +144,13 @@ height: 30px;
 <body>
   <div class="container-top">
     
-        <a class="logo" href="//www.atlassib.md"><img src="../images/105.jpg" alt=""></a>
+        <a href="//www.atlassib.md"><img class="logo" src="../images/105.jpg" alt=""></a>
       
-        <a class="tel-up" href="">069-649-600</a>  
+        <a class="tel-up" href="">+373-69-649-600</a>  
      
         <a class="telup" href="">&#128241;</a>
     
-        <a class="tel-up" href="">078-22-87-39</a>  
+        <a class="tel-up" href="">+373-78-22-87-39</a>  
     
         <a class="telup" href="">&#128241;</a>
     </ul>
@@ -163,9 +171,11 @@ height: 30px;
   </nav>
 
   <!--img big-->
-  <div >
- <img src="../images/atl1.jpg" alt="" class="imgful">
-  </div>
+ <div class="imgful-1" >
+ <a href=""><img src="../images/atl1.jpg" alt="" class="imgful"></a>
+ <a href=""><img src="../images/atl2.jpg" alt="" class="imgful"></a> 
+ <a href=""><img src="../images/atl3.jpg" alt="" class="imgful"></a> 
+ </div>
 
   <!--map goo-->
   <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d10878.54323475158!2d28.82451585081788!3d47.02775328383659!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2s!4v1520600324437" ></iframe>
