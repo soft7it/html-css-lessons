@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- for scroll down-->
+  
+  <style>
+  body{
+    margin:0px;
+  }
+
+.logo{
+  width: 300px;
+  height: 50px;
+  margin-left: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;  
+  border: 0px;
+  padding: 0px;
+ 
+}
+
+.container-top{
+  background-color: rgb(230, 248, 228);  
+  height: 70px;
+    
+}
+
+.telup{
+  font-size: 20px;
+  float: right;
+  color: black;
+  margin-top: 15px;
+  margin-right: 10px;
+  text-decoration: none;
+  
+}
+
+ .tel-up{
+   font-size: 25px;
+   float: right;
+   color: black;
+   margin-top: 15px;
+   margin-right: 70px;  
+   padding-right: 10px;
+   text-decoration: none;
+  
+ }
+
+ .tel-up:hover, .telup:hover{
+   text-shadow: 1px 1px 0px #f75900;
+ }
+
+.menu{
+  background-color: #4CAF50;
+  height:60px;
+  box-shadow: 0 2px 5px 0 rgb(255, 153, 0);
+  
+}
+
+ul{
+  margin: 0px;
+  padding: 0px;  
+  transition: 1s;
+  
+}
+
+ul:first-child{
+  float:left;
+  list-style: none;
+    
+}
+
+ul:last-child{
+  float: right;
+  list-style: none;
+  
+}
+
+.li-1{
+  float:left;
+  padding: 20px;
+  padding-bottom: 13px;
+  text-transform: uppercase;
+  font-family: "Segoe UI",Arial,sans-serif;
+  letter-spacing: 4px;
+  font-size: 20px;    
+
+}
+
+.li-1:hover{
+    background-color: white;
+ 
+}
+
+.a1{    
+  text-decoration: none;
+  color: white;
+   
+}
+
+.a1:hover{
+    color: rgb(8, 8, 8);
+    
+}
+
+.imgful-1{
+ width: 100%;
+ margin-top: 2px;
+ 
+}
+
+.imgful{
+  width: 19.8%;
+  height: 250px;
+  
+}
+
+.menu-2{
+  background-color: #4CAF50;
+  height: 60px;
+  box-shadow: 0 2px 5px 0 rgb(255, 153, 0);
+
+  
+
+}
+
+#ul1{
+  float: left;
+  width: 100%
+}
+
+ .li-2{
+   float: left;
+   margin-left: 20px;
+   margin-right: 20px;    
+   margin-left: 30px;
+   padding-top: 17px;
+   font-size: 20px;
+   letter-spacing: 3px;   
+   
+ }
+
+ .li-2:hover{
+  background-color: white;
+  
+ }
+
+ .a2{
+   text-decoration: none;
+   color: white;
+ }
+
+ .a2:hover{
+   color: black;
+   padding: 20px;
+ }
+
+ iframe{
+   width: 100%;
+   height: 350px;
+   border: 0px;
+   
+ }
+
+ footer{
+   background-color: black;
+   width: 100%;
+   height: 300px;
+
+ }
+
+.icon-soc{
+width: 20px;
+height: 30px;
+
+ }
+ 
+  </style>
+
+</head>
+
+<body>
+  <div class="container-top">
+    
+        <a href="//www.atlassib.md"><img class="logo" src="../images/105.jpg" alt=""></a>
+      
+        <a class="tel-up" href="">+373-69-649-600</a>  
+     
+        <a class="telup" href="">&#128241;</a>
+    
+        <a class="tel-up" href="">+373-78-22-87-39</a>  
+    
+        <a class="telup" href="">&#128241;</a>
+      
+  </div>
+  <nav class="menu">
+    <ul>
+      <li class="li-1"><a class="a1" href="">Tutorial</a></li>
+      <li class="li-1"><a class="a1" href="">Reference</a></li>
+      <li class="li-1"><a class="a1" href="">Example</a></li>
+    </ul>
+    <ul>
+      <li class="li-1"><a class="a1" href="">&#127759;</a></li>
+      <li class="li-1"><a class="a1" href="">&#128269;</a></li>
+
+    </ul>
+  </nav>
+
+  <!--img big-->
+ <div class="imgful-1" >
+ <a href=""><img src="../images/atl1.jpg" alt="" class="imgful"></a>
+ <a href=""><img src="../images/atl2.jpg" alt="" class="imgful"></a> 
+ <a href=""><img src="../images/atl3.jpg" alt="" class="imgful"></a> 
+ <a href=""><img src="../images/atl4.jpg" alt="" class="imgful"></a> 
+ <a href=""><img src="../images/atl5.jpg" alt="" class="imgful"></a> 
+ </div>
+ 
+ <div class="menu-2">
+<ul id="ul1">
+  <li class="li-2"><a class="a2" href="">Austria</a></li>
+  <li class="li-2"><a class="a2" href="">Anglia</a></li>
+  <li class="li-2"><a class="a2" href="">Belgia</a></li>
+  <li class="li-2"><a class="a2" href="">Germania</a></li>
+  <li class="li-2"><a class="a2" href="">Franta</a></li>
+  <li class="li-2"><a class="a2" href="">Italia</a></li>
+  <li class="li-2"><a class="a2" href="">Olanda</a></li>
+  <li class="li-2"><a class="a2" href="">Portugalia</a></li>
+  <li class="li-2"><a class="a2" href="">Spania</a></li>
+  <li class="li-2"><a class="a2" href="">Suiedia</a></li>
+</ul>
+ </div>
+
+  <!--map goo-->
+  <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d10878.54323475158!2d28.82451585081788!3d47.02775328383659!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2s!4v1520600324437" ></iframe>
+
+
+<!-- social end-->
+  <footer>
+    
+<table class="foot-ul">
+  <tr>
+  <td><a class="" href="wathapp"><img src="http://icons.iconarchive.com/icons/chrisbanks2/gCons/48/WhatsApp-icon.png" alt="" class="icon-soc"></a></td>
+
+  <td><a class="" href="viber"><img src="http://icons.iconarchive.com/icons/bokehtdcia/captiva/48/web-viber-icon.png" alt="" class="icon-soc"></a></td>
+
+  <td><a class="" href="fb"><img src="http://icons.iconarchive.com/icons/cheezen/web-2/48/facebook-2-icon.png" alt="" class="icon-soc"></a></td>
+
+  <td><a class="" href="ok"><img src="http://icons.iconarchive.com/icons/sicons/basic-round-social/48/odnoklassniki-icon.png" alt="" class="icon-soc"></a></td>
+
+  <td><a class="" href="email"><img src="http://icons.iconarchive.com/icons/marcus-roberto/google-play/48/Gmail-icon.png" alt="" class="icon-soc"></a></td>
+  </tr>
+</table>
+
+  </footer>
+
+  <div id="map" style="width:100%;height:400px;"></div>
+
+
+</body>
+</html>
