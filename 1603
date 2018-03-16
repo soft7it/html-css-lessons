@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+  body{
+    background-color: black;
+  }
+
+  #preloader{
+    width: 100px;
+    height: 100px;
+    border: 3px solid #bea;
+    border-radius: 100px;
+    animation: rote 2s infinite linear;
+  }
+#preloader .poi{
+  width: 7px;
+  height: 7px;
+  border: white;
+  background-color: white;
+  border-radius: 100%;
+  transform: translateY(43.5px) translateX(-7.5px);
+  border: 3px solid black;
+}
+@keyframes rote{
+  from{transform: rotate(0deg);}
+    to{transform: rotate(360deg);}
+}
+
+  </style>
+</head>
+<body>
+  <div id="preloader">
+
+          <div class="poi"></div>
+  </div>
+</body>
+</html>
