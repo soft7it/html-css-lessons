@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="preloader">
+    <div class="big">
+      <div class="medium">
+        <div class="small"></div>
+      </div>
+
+    </div>
+  </div>
+</body>
+
+
+</html>
+
+
+body{
+  background-color: black;
+}
+#preloader{
+  width: 200px;
+  height: 200px;
+  /*background-color: yellow;*/
+}
+#preloader>.big{
+  width: 160px;
+  height: 160px;
+  border: 5px solid rgb(1, 25, 1);
+  transform: translateX(15px) translateY(15px);
+  border-left-color: black;
+  border-right-color: black;
+  border-radius: 100%;
+  animation: wow 2s infinite;
+}
+@keyframes wow{
+  from{transform: rotate(0deg);}
+  to{ transform: rotate(360deg);}
+}
+#preloader .small{
+  width: 90px;
+  height: 90px;
+  border: 5px solid rgb(74, 214, 74);
+  transform: translateX(12.5px) translateY(12.5px);
+  border-radius: 100%;
+  border-left-color: black;
+  border-right-color: black;
+  animation: wow1 2s infinite;
+}
+@keyframes wow1{
+  from{transform: translateX(12.5px) translateY(12.5px) rotate(-360deg);}
+  to{transform: translateX(12.5px) translateY(12.5px) rotate(0deg);}
+}
+#preloader .medium{
+  border: 5px solid rgb(21, 135, 21);
+  width: 125px;
+  height: 125px;
+  transform: translateX(12.5px) translateY(12.5px);
+  border-radius: 100%;
+  border-top-color: black;
+  border-bottom-color: black;
+  animation: wow2 2s infinite;
+
+}
+@keyframes wow2{
+  from{transform: translateX(12.5px) translateY(12.5px) rotate(0deg);}
+  to{transform: translateX(12.5px) translateY(12.5px) rotate(360deg);}
+}
+
