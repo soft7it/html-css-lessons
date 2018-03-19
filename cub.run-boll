@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    body{
+        background-color: slategray;
+    }
+    #preloader{
+        width: 400px;
+        height: 400px;
+        background-color: rgb(62, 247, 77);
+        margin-top: 50px;
+        margin-left: 50px;
+        float: left;
+        
+        /*animation: opa 4s infinite delay iteration-count direction fill-mode linear;*/
+        
+
+  
+
+
+
+    /*@keyframes opa{
+        from{background-color: blue;  transform: scale(0);}
+        to{background-color: blue;  transform: scale(1);}*/
+        
+        
+    }
+    #preloader .boll{
+        width: 20px;
+        height: 20px;
+        border-radius: 100px;
+        background-color: red;
+        margin: -27px;
+        /*transform: translateY(-27px) translateX(-27px);*/
+        position: relative;
+    -webkit-animation: boll 4s;
+    animation: boll 4s infinite linear;
+    }
+    
+@-webkit-keyframes boll {
+    0%   {background-color: blue; left:0px; top:0px;}
+    25%  {background-color: crimson; left:450px; top:0px;}
+    50%  {background-color: chartreuse; left:450px; top:450px;}
+    75%  {background-color: azure; left:0px; top:450px;}
+    100% {background-color: darkorange; left:0px; top:0px;}
+}
+
+@keyframes boll {
+    0%   {background-color: blue; left:0px; top:0px;}
+    25%  {background-color: crimson; left:450px; top:0px;}
+    50%  {background-color: chartreuse; left:450px; top:450px;}
+    75%  {background-color: azure; left:0px; top:450px;}
+    100% {background-color: darkorange; left:0px; top:0px;}
+} 
+
+       
+
+    /*@-webkit-keyframes shake {
+        0% {-webkit-transform: translateY(0);}
+        100% {
+        -webkit-transform: translateY(1);    
+     }
+    }
+    @keyframes shake {
+        0% {transform: translateY(0);}
+        100% {background-color: darkorange;
+        transform: translateY(1);    
+     }
+
+    }*/
+
+    *,*:after, *:before {
+  box-sizing: border-box;
+}
+
+.preloader {
+  animation-name: preloader;
+  animation-iteration-count: infinite;
+  animation-duration: 4s;
+  animation-timing-function: ease-out;
+  border: 4px solid #aaa;
+  height: 400px;
+  left: 50%;
+  margin: -16px 0 0 -16px;
+  overflow: hidden;
+  position: absolute;
+  top: 50%;
+  width: 400px;
+
+  .grow{   {
+    animation-name: preloader-fill;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+    animation-timing-function: ease-out;
+    background: #aaa;
+    content: "";
+    display: block;
+    height: 400px;
+    position: absolute;
+    right: -400px;
+    top: -4px;
+    width: 400px;
+  }
+}
+
+/*@keyframes preloader {
+  0% {
+    border-color: #aaa;
+    transform: rotate(0);
+  }
+  
+  25% {
+    border-color: red;
+    transform: rotate(-90deg);
+  }
+  
+  50% {
+    border-color: green;
+    transform: rotate(-180deg);
+  }
+  
+  75% {
+    border-color: blue;
+    transform: rotate(-270deg);
+  }
+  
+  100% {
+    border-color: #aaa;
+    transform: rotate(-360deg);
+  }
+}*/
+
+@keyframes preloader-fill {
+  0% {
+    background-color: #aaa;
+    top: 0;
+    right: -32px;
+  }
+  
+  25% {
+    background-color: red;
+    top: 0;
+    right: 0;
+  }
+  
+  50% {
+    background-color: green;
+    top: -32px;
+    right: 0;
+  }
+  
+  75% {
+    background-color: blue;
+    top: 0;
+    right: 0;
+  }
+  
+  100% {
+    background-color: #aaa;
+    top: 32px;
+    right: 0;
+  }
+}
+
+
+    </style>
+</head>
+<body>
+    <div id="preloader">
+       <div class="grow">
+            <div class="boll">
+
+            </div>
+       </div>              
+     </div>
+</body>
+</html>
