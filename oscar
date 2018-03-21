@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+<link rel="stylesheet" href="oscar.css">
+  </head>
+<body>
+  <figure id="oscar">
+    <div class="">
+      <img src="http://www.emilylarkin.com/wp-content/uploads/2016/03/176-PA181228-480x360.jpg" alt="">
+    </div>
+
+      <figcaption>
+          <h2><span>WARM</span>OSCAR</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+
+      </figcaption>
+
+
+
+  </figure>
+
+</body>
+</html>
+
+#oscar div, #oscar figcaption, #oscar {
+  /*border: 1px solid red;*/
+  width: 480px;
+  height: 360px;
+
+
+}
+#oscar{
+  overflow: hidden; /* penru a ascunde img sa arate frumos la scale*/
+}
+#oscar figcaption{
+  transform: translateY(-360px);
+  background: linear-gradient(rgba(50,50,70,0.75), rgba(50,70,50,0.5), rgba(70,50,50,0.75));
+}
+#oscar h2{
+  color:white;
+  text-align: center;
+  margin: 0%;
+  font-size: 30px;
+  transform: translateY(165px);
+  transition: 0.35s;
+
+}
+ #oscar h2 span{
+   font-weight: 400;
+
+ }
+ #oscar:hover figcaption{
+   transform: translateY(-360px);
+   background: linear-gradient(rgba(50,50,100,0.5), rgba(50,100,50,0.5), rgba(100,50,50,0.5));
+
+ }
+
+ #oscar:hover h2{
+   transform: translateY(135px);
+ }
+
+ #oscar:hover p{
+   transform: translateX(30px) translateY(-30px) scale(1);
+   transition: 0.4s;
+ }
+#oscar img{
+  transform: scale(1.1);
+}
+
+#oscar:hover img{
+  transform: scale(1);
+  transition: 0.4s;
+}
+
+ #oscar p{
+   border: 2px solid white;
+   color:white;
+   width: 420px;
+   height: 300px;
+   transform: translateX(30px) translateY(-30px) scale(0.1);
+
+ }
+
+body{
+  background: #333;
+  font-family: Arial;
+}
