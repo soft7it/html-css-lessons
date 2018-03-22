@@ -1,0 +1,101 @@
+body{
+    background-color: #323;
+    font-family: Arial;
+}
+
+#unic div, #unic figcaption, #unic {
+    width: 500px;
+    height: 400px;
+}
+
+#unic{
+    overflow: hidden; /* penru a ascunde img sa arate frumos la scale*/
+}
+
+#unic figcaption{
+    transform: translateY(-400px);
+    background:  linear-gradient(rgba(243, 163, 163, 0.75), rgba(252, 240, 131, 0.75), rgba(175, 175, 255, 0.75));
+}
+
+#unic:hover figcaption{
+    transform: translateY(-400px);
+    background: linear-gradient(rgba(243, 163, 163, 0.35), rgba(252, 240, 131, 0.35), rgba(175, 175, 255, 0.35));
+     /*transparent; face original DAR E POSIBIL linear-gradient*/
+}
+
+#unic h2{
+    font-size: 30px;
+    margin: 0%;
+    text-align: center;
+    color: aliceblue;
+    transform: translateY(185px);
+}
+
+#unic h2 span{
+    font-weight: 500;
+}
+
+#unic:hover h2{
+    transform: translateY(160px);
+    transition: 0.4s;
+}
+
+#unic p{
+    font-size: 20px;
+    color: rgb(252, 252, 252);
+    transform: translateX(10px) translateY(145px) scale(0.01);
+}
+
+#unic:hover p{
+    transform: translateX(10px) translateY(145px) scale(1);
+    transition: 0.4s;
+}
+
+#unic .mword{
+    border: 2px solid rgb(129, 22, 22);
+    color: rgb(255, 255, 255);
+    transform: translateX(25px) translateY(-10px) scale(0.01);
+    width: 448px;
+    height: 348px;
+}
+
+#unic:hover .mword{
+    transition: 0.4s;
+    transform: translateX(25px) translateY(-10px) scale(1);
+
+}
+
+
+#unic img{
+    transform: scale(1.31);
+}
+
+#unic:hover img{
+    transform: scale(1);
+    transition: 0.25s;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="oscar2.css">
+</head>
+<body>
+    <figure id="unic">
+        <div class="photo">
+            <img src="https://www.fleewinter.com/wp-content/uploads/2014/11/pq3-500x400.jpg" alt="">            
+        </div>
+            <figcaption> <!--Important pentru motoare SEO -->
+                <h2><span>WARM</span>OSCAR</h2>
+                <div class="mword">
+                    <p>  Formula texului de jos</p>
+                </div>
+                
+            </figcaption>        
+    </figure>    
+</body>
+</html>
