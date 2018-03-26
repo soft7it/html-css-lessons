@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+  body{background-color: #333;
+  }
+  #profile{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    border: 2px solid red;
+    overflow: hidden; /* taie tot ce se afla pri penjur*/
+    box-shadow: 2px 3px 20px white;
+    transform: translate(0, 0); /*pentru a fixa  foto ca sa arate bine foto fara colturi*/
+
+  }
+  .foto{
+    width: 300px;
+    height: 300px;
+    /*border:2px solid yellow;*/
+    background-image: url("http://media.kankan.md/image/201510/640x360/af8a4360471e48167cb2d283711b30c3.jpg");
+    background-position: center;
+    opacity: 0.5;
+  }
+
+  #profile:hover .foto{
+    opacity: 1;
+    transition: 0.3s;
+  }
+
+
+  .info{
+    width: 300px;
+    height: 260px;
+    /*border:2px solid blue;*/
+    transform: translateY(300px);
+    background-color: #94b4e8;
+    text-align: center;
+    color: green;
+    font-size: 20px;
+    padding-top: 40px;
+  }
+
+  #profile:hover>.foto>.info{ /*cind atingi profail se ridica sus*/
+
+    transform: translateY(0px);
+    transition: 1s;
+
+  }
+
+
+
+
+  </style>
+</head>
+
+<body>
+  <div id="profile">
+    <div class="foto">
+      <div class="info">
+        <h3>Jon Chiron</h3>
+        <p>A fost odata ca niciodata un celovec :D <br>Cartosa nosca asa il cheama de mic</p>
+        <small>1980-2018</small>
+        <a href="https://www.facebook.com/townsquarechiropractic">facebook</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
