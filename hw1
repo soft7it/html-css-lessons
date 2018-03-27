@@ -1,0 +1,98 @@
+body{
+    background-color: #333;
+    }
+    
+    /*#profesional div, #profesional .unic1, #profesional .unic2, #profesional #unic{
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+    transition: 1s;
+    }*/
+    
+    #profesional{
+    width: 500px;
+    height: 400px;
+    overflow: hidden;
+    transition: 1s;
+    }
+    
+    #profesional #unic{
+    background-image: url("https://render.fineartamerica.com/images/rendered/default/greeting-card/images-medium-5/stansbury-island-on-the-great-salt-lake-johnny-adolphson.jpg?&targetx=-25&targety=0&imagewidth=750&imageheight=500&modelwidth=700&modelheight=500&backgroundcolor=9FA69C&orientation=0");
+    background-position: center;
+    width: 500px;
+    height: 400px;
+    /*border: 2px solid red; */ 
+    }
+    
+    #profesional:hover #unic{
+    opacity: 0.5;
+    transform: translateY(-100px);
+    transition: 1s;
+    }
+    
+    #pofesional .unic1{
+    width: 500px;
+    height: 100px;
+    
+    }
+    
+    #profesional .unic1>h2{
+    transform: translateY(-150px); 
+    color: snow;
+    font-size: 40px;
+    text-align: center;
+    margin: 0%; 
+    padding: 0%; 
+    }
+    
+    #profesional:hover .unic1>h2{
+    transform: translateY(-200px);
+    transition: 1s;
+    }
+    
+    .unic2{
+    width: 500px;
+    height: 100px;
+    background-color: violet;
+    transform: translateY(-67px);
+    }
+    
+    .unic2 p{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 40px; 
+    }
+    
+    #profesional:hover .unic2{
+    transform: translateY(-169px);
+    transition: 1s;
+    }     
+    
+    
+    
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Oscar 3</title>
+    <link rel="stylesheet" href="profes.css">
+    </head>
+    <body>
+        <div id="profesional">
+            <div id="unic">    
+            </div>
+    
+            <div class="unic1">
+                <h2><span>WARM</span>OSCAR</h2>
+            </div>
+    
+            <div class="unic2">
+                <p>When Goliath comes out, you should run.</p> 
+            </div>
+        </div>    
+    </body>
+    </html>
+    
+    
