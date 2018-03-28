@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Position relative</title>
+
+  <style>
+
+  div{
+    width: 100px;
+    height: 100px;
+  }
+
+  #a{
+    background-color: red;
+  }
+
+  #b{
+    background-color: yellow;
+    position: relative;
+    bottom: 100px;
+    z-index: -1;
+
+  }
+
+  #c{
+    background-color: blue;
+  }
+
+  </style>
+
+</head>
+<body>
+  <div id="a">1</div>
+  <div id="b">2</div>
+  <div id="c">3</div>
+
+</body>
+</html>
