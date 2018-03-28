@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Position rabsolute</title>
+
+  <style>
+body{
+  height: 2000px;
+}
+  div{
+    width: 100px;
+    height: 100px;
+  }
+
+  #a{
+    background-color: red;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+  }
+
+  #b{
+    background-color: yellow;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+
+  }
+
+  #c{
+    background-color: blue;
+    position: absolute;
+    top: 150px;
+    left: 150px;
+
+  }
+
+  </style>
+
+</head>
+<body>
+  <div id="a">1</div>
+  <div id="b">2</div>
+  <div id="c">3</div>
+
+</body>
+</html>
