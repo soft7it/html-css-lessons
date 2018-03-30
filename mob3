@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Home work</title>
+<link rel="stylesheet" href="hw3.css">
+</head>
+<body>
+<div class="unic">
+<div class="ant1"></div>
+<div class="ant2"></div>
+<div class="ant3"></div>
+<div class="ant4"></div>
+<div class="ant5">5G</div>
+
+<div class="pro">75% </div>
+<div class="bat1"></div>
+<div class="unic2"> <!-- schilet bateria-->
+<div class="bat2"></div>
+<div class="bat3"></div>
+<div class="bat4"></div>
+</div>
+<div class="time">17:50</div>
+</div>
+</body>
+</html>
+
+
+body{
+background-color: #333;
+}
+
+.unic{
+width: 400px;
+height: 30px;
+border-bottom: 2px solid rgb(255, 2, 2);
+background-color: orange;
+position: absolute;
+}
+
+.ant1{
+width: 4px;
+height: 4px;
+background-color: rgb(233, 233, 243);
+position: absolute;
+left: 16px;
+top: 22px;
+}
+
+.ant2{
+width: 4px;
+height: 8px;
+background-color: rgb(237, 237, 243);
+position: absolute;
+left: 23px;
+top: 18px;
+}
+
+.ant3{
+width: 4px;
+height: 14px;
+background-color: rgb(248, 248, 250);
+position: absolute;
+left: 30px;
+top: 12px;
+}
+
+.ant4{
+width: 4px;
+height: 18px;
+background-color: rgb(239, 239, 245);
+position: absolute;
+left: 37px;
+top: 8px;
+}
+
+.ant5{
+font-size: 23px;
+color: white;
+position: absolute;
+left: 47px;
+top: 4px;
+}
+
+.unic2{
+width: 50px;
+height: 20px;
+border: 2px solid white;
+position: absolute;
+left: 280px;
+top: 3px;
+overflow: hidden;
+}
+
+.bat1{
+width: 4px;
+height: 14px;
+background-color: white;
+position: absolute;
+left: 276px;
+top: 8px;
+}
+
+.bat2{
+width: 10px;
+height: 18px;
+background-color: rgb(17, 196, 250);
+position: absolute;
+animation: ups1 4s infinite linear;
+transition: 2s;
+right: 2px;
+top: 1px;
+}
+
+@keyframes ups1{
+0%{right: -36px;}
+50%{right: 2px;}
+100%{right: -36px;}
+
+}
+
+.bat3{
+width: 10px;
+height: 18px;
+background-color: rgb(217, 255, 0);
+position: absolute;
+animation: ups2 4s infinite linear;
+transition: 2s;
+right: 14px;
+top: 1px;
+}
+
+@keyframes ups2{
+0%{right: -24px;}
+50%{right: 14px;}
+100%{right: -24px;}
+
+}
+
+.bat4{
+width: 10px;
+height: 18px;
+background-color: rgb(255, 0, 0);
+position: absolute;
+animation: ups3 4s infinite linear;
+transition: 2s;
+right: 26px;
+top: 1px;
+}
+
+@keyframes ups3{
+0%{right: -12px;}
+50%{right: 26px;}
+100%{right: -12px;}
+
+}
+
+.pro{
+font-size: 20px;
+position: absolute;
+left: 235px;
+top: 5px;
+color: rgb(255, 255, 255);
+}
+
+.time{
+font-size: 20px;
+position: absolute;
+left: 340px;
+top: 5px;
+color: white;
+}
