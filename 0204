@@ -1,0 +1,120 @@
+#paper .foto .slice{
+  width: 200px;
+  height: 600px;
+  border: 1px solid red;
+  position: absolute;
+  background-image: url("http://wfiles.brothersoft.com/a/apple-galaxy_72647-800x600.jpg");
+}
+
+#paper .foto .slice:nth-child(2){
+  left: 200px;
+  background-position: -200px 0px;
+}
+
+#paper .foto .slice:nth-child(3){
+  left: 200px;
+  background-position: -400px 0px;
+}
+
+#paper .foto .slice:nth-child(4){
+  left: 200px;
+  background-position: -600px 0px;
+}
+
+#paper .foto .slice:nth-child(3){
+  left: 400px;
+}
+
+#paper .foto .slice:nth-child(4){
+  left: 600px;
+}
+
+#paper .foto{
+  border: 2 solid green;
+  width: 800px;
+  height: 600px;
+
+}
+
+#paper .widgets{
+  /*display: none;*/
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  bottom: 560px;
+}
+#paper .widgets a:last-child{
+  right: 40px;
+  bottom: 0px;
+}
+
+#paper{
+  position: absolute;
+  width: 800px;
+  height: 600px;
+}
+
+/*Effecte down*/
+
+#paper{
+  perspective: 900px;
+}
+
+/*#paper:hover nth-child(4);*/
+
+
+#paper:hover .foto .slice:nth-child(2){
+  transform: rotateY(45deg) scaleY(0.93);
+  left: 187px;
+  transition: 2s;
+  top: 0;
+
+}
+
+#paper:hover .foto .slice:nth-child(3){
+  transform: rotateY(-45deg) scaleY(0.93);
+  left: 327px;
+  transition: 2s;
+  top: 0;
+
+}
+
+#paper:hover .foto .slice:nth-child(4){
+  transform: rotateY(45deg)scaleY(0.93);
+  left: 470px;
+  transition: 2s;
+  top: 0;
+
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="paper">
+    <div class="foto">
+      <div class="slice">1</div>
+      <div class="slice">2</div>
+      <div class="slice">3</div>
+      <div class="slice">4</div>
+    </div>
+    <div class="widgets">
+      <p>
+      <i class="fa fa-eye" aria-hidden="true"></i>100
+      </p>
+      <p><i class="fa fa-heart" aria-hidden="true"></i>200
+      </p>
+      <a href="">
+      <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+
+    </div>
+  </div>
+
+</body>
+</html>
