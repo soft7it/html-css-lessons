@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style media="screen">
+  body{
+    margin: 0;
+    background-color: #333;
+  }
+
+  #fan .silence{
+    background-color: #444;
+    color: white;
+    position: absolute;
+    padding: 30px;
+    width: 800px;
+    height: 70px;
+    border-radius: 50% 20px 20px 50%;
+    top: 50%;
+    left: 50%;
+    margin-top: -65px;
+    margin-left: -430px;/* 800=-400+30*/
+    box-shadow: 2px 3px 4px 4px yellow;
+    transform-origin: 50px 65px;
+    transform: rotate(0);transition: 2s;
+
+
+  }
+
+  #fan h2, #fan p{
+    margin: 0;
+  }
+
+#fan h2{
+  font-size: 30px;
+  color: snow;
+  padding-left: 40px;
+  text-align: right;
+}
+
+#fan h2::before{
+  content: "\275D"; /* din utf 8*/
+  font-size: 17px;
+  padding-right: 20px;
+  color: #aaa;
+  padding-left: 40px;
+
+}
+
+#fan h2::after{
+  content: "\275D";
+  font-size: 17px;
+  padding-left: 20px;
+  color: #aaa;
+
+}
+#fan .silence::before{
+  content: "\25EF";
+  position: absolute;
+  font-size: 30px;
+  top: 40px;
+  left: 40px;
+  background-color: #444;
+  border-radius: 100%;
+  box-shadow: inset 0 0 5px 2px red;
+}
+
+  #fan p{
+    text-align: right;
+    text-decoration: underline;
+    font-style: italic;
+    font-size: 14px;
+    color: #999;  /*culoarea sura*/
+    padding-top: 30px;
+  }
+
+  /*Effect*/
+
+  #fan .silence:nth-child(1){
+        background-color: #303030;
+  }
+
+  #fan .silence:nth-child(2){
+        background-color: #353535;
+  }
+  #fan .silence:nth-child(3){
+        background-color: #404040;
+  }
+  #fan .silence:nth-child(4){
+        background-color: #454545;
+  }
+  #fan .silence:nth-child(5){
+        background-color: #505050;
+  }
+  #fan .silence:nth-child(6){
+        background-color: #555555;
+  }
+  #fan .silence:nth-child(7){
+        background-color: #606060;
+  }
+  #fan .silence:nth-child(8){
+        background-color: #656565;
+  }
+  #fan .silence:nth-child(9){
+        background-color: #707070;
+  }
+  #fan .silence:nth-child(10){
+
+    background-color: #757575;
+  }
+  #fan .silence:nth-child(11){
+
+    background-color: #808080;
+  }
+  #fan .silence:nth-child(12){
+
+    background-color: #858585;
+  }
+
+  #fan:hover .silence:nth-child(1){
+    transform: rotate(-60deg);
+    background-color: #303030;
+  }
+
+  #fan:hover .silence:nth-child(2){
+    transform: rotate(-50deg);
+
+  }
+  #fan:hover .silence:nth-child(3){
+    transform: rotate(-40deg);
+
+  }
+  #fan:hover .silence:nth-child(4){
+    transform: rotate(-30deg);
+
+  }
+  #fan:hover .silence:nth-child(5){
+    transform: rotate(-20deg);
+
+  }
+  #fan:hover .silence:nth-child(6){
+    transform: rotate(-10deg);
+
+  }
+  #fan:hover .silence:nth-child(7){
+    transform: rotate(0deg);
+
+  }
+  #fan:hover .silence:nth-child(8){
+    transform: rotate(10deg);
+
+  }
+  #fan:hover .silence:nth-child(9){
+    transform: rotate(20deg);
+
+  }
+  #fan:hover .silence:nth-child(10){
+    transform: rotate(30deg);
+
+  }
+  #fan:hover .silence:nth-child(11){
+    transform: rotate(40deg);
+
+  }
+  #fan:hover .silence:nth-child(12){
+    transform: rotate(50deg);
+
+  }
+
+  </style>
+</head>
+<body>
+  <div id="fan">
+    <div class="silence">
+      <h2>Lorem ipsum dolor.</h2>
+      <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+    <div class="silence">
+      <h2>Nisi, voluptates quod.</h2>
+      <p>Fugiat nulla, officia nihil nesciunt.</p>
+    </div>
+    <div class="silence">
+      <h2>Quia, quasi, magnam.</h2>
+      <p>Quis assumenda, dolores vel non.</p>
+    </div>
+    <div class="silence">
+      <h2>Ut, aspernatur, ad.</h2>
+      <p>Neque, ad officia architecto corporis?</p>
+    </div>
+    <div class="silence">
+      <h2>Aut, labore eveniet!</h2>
+      <p>Esse deserunt numquam provident, quisquam.</p>
+    </div>
+    <div class="silence">
+      <h2>Sint, dolores, error.</h2>
+      <p>Maiores molestiae repellat aspernatur fugiat.</p>
+    </div>
+    <div class="silence">
+      <h2>Expedita, possimus, facere.</h2>
+      <p>Error tempora asperiores harum, iusto.</p>
+    </div>
+    <div class="silence">
+      <h2>Quas, praesentium, laudantium?</h2>
+      <p>Itaque eaque culpa provident cumque.</p>
+    </div>
+    <div class="silence">
+      <h2>Esse, voluptatum, veritatis.</h2>
+      <p>Aut maiores, eius atque qui.</p>
+    </div>
+    <div class="silence">
+      <h2>Eligendi, perferendis, tenetur.</h2>
+      <p>Laudantium, quisquam eaque autem perferendis?</p>
+    </div>
+    <div class="silence">
+      <h2>Libero, esse, vel.</h2>
+      <p>Ad accusantium, consectetur optio exercitationem.</p>
+    </div>
+    <div class="silence">
+      <h2>Labore, impedit, rerum. adaugat textul</h2>
+      <p>Earum quo sunt voluptatibus a. </p>
+    </div>
+  </div>
+
+</body>
+</html>
