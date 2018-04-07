@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Enter nav bar</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+    <style>
+        body{
+            margin: 0;
+        }
+        .one{
+            background-color: #efefef;
+        }
+
+        .first, .seco, .tel{
+            list-style: none;            
+            padding-bottom: 5px;
+            margin: 0;
+            
+        }
+        .seco{
+            margin-left: 350px;
+            word-spacing: 10px;
+            
+        }
+        .first a{
+            margin-right: 15px;
+        }
+        .first li:first-child{
+            margin-left: 50px;
+        }
+
+        ul, li{
+            display: inline-block;
+            vertical-align: middle;
+        }
+        
+        li, a{
+            font-size: 14px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            color: #777;
+            font-family:'Geometria Light',sans-serif;
+        }
+
+        .tel{
+            margin-left: 50px;
+        }
+
+        .tel li{
+            margin-right: 30px;
+        }
+        
+        a{
+            text-decoration: none;
+        }
+        .two{
+            background-color: rgb(255, 255, 255);        
+            
+        }
+
+        .two img{
+            width: 126px;
+            height: 36px;
+            margin-left: 80px;
+        }
+
+        .textField {
+            width: 700px; /* Ширина поля */
+            padding: 10px; /* Поля */
+            margin-top: 10px;
+            margin-bottom: 10px;
+            margin-left: 30px;
+            margin-right: 30px;
+            box-sizing: border-box; /* Алгоритм расчёта ширины */
+            box-shadow: inset 0 1px 5px rgba(0,0,0,0.2); /* Тень внутри */
+            border: 1px solid rgb(61, 55, 55); /* Параметры рамки */
+            border-radius: 20px 20px 20px 20px;
+            color: #2c2421; /* Цвет текста */
+            font-size: 20px;   
+        }
+
+        .two div{
+            display: inline-block;
+            vertical-align: middle;
+
+        }
+
+        .fa.fa-user-o, 
+        .fa.fa-heart-o,
+        .fa.fa-bar-chart,
+        .fa.fa-shopping-basket{
+            font-size: 30px;
+            padding-left: 15px;
+            padding-right: 15px;
+
+        }
+        
+        .two a:first-child{
+            font-size: 20px;
+            padding-left: 5px;
+            padding-right: 10px;
+        }
+
+        .three{
+            background-color: black; 
+                       
+        }
+        .three a{
+            color: white;
+            font-size: 18px;            
+            
+        }
+
+        .three ul{
+            margin: 0px;
+            padding: 0px;
+            margin-left: 80px;
+
+        }
+        .three ul, .three li{
+            display: inline-block;
+            vertical-align: middle;
+        }
+        .three li{
+            margin-right: 15px;
+            margin-left: 15px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+            
+        }
+
+
+    
+    </style>
+</head>
+<body>
+    <nav class="one">
+    <ul class="first">
+        <li><a href="">servicii</a></li>
+        <li><a href="">livrare</a></li>
+        <li><a href="">achitare</a></li>
+        <li><a href="">contacte</a></li>
+    </ul>
+    <ul class="seco">
+        <li>magazinul online lucrează:</li>
+        <li>9:00</li>
+        <li>-</li>
+        <li>19:00</li>
+    </ul>
+    <ul class="tel">
+        <li>069649600</li>
+        <li>078228739</li>
+    </ul>
+   </nav>
+   <nav class="two">
+       <div><img src="https://www.rabota.md/uploads/2016_07_08_14_42_03_logo.png" alt=""></div>
+       <div><input class="textField" type="text" placeholder="Caută produsul dorit" title="Caută produsul dorit"></div>
+       <div><a href="">RU</a></div>
+       <div><a href=""><i class="fa fa-user-o" aria-hidden="true"></i></a></div>
+       <div><a href=""><i class="fa fa-heart-o" aria-hidden="true"></i></a></div>
+       <div><a href=""><i class="fa fa-bar-chart" aria-hidden="true"></i></a></div>
+       <div><a href=""><i class="fa fa-shopping-basket" aria-hidden="true"></i></a></div>
+   </nav>
+   <nav class="three">
+       <ul>
+           <li><a href="">Telefoane</a></li>
+           <li><a href="">Tablete</a></li>
+           <li><a href="">Laptopuri</a></li>
+           <li><a href="">Calculatoare</a></li>
+           <li><a href="">Periferice</a></li>
+           <li><a href="">Televizoare</a></li>
+           <li><a href="">Gadgets</a></li>
+           <li><a href="">For Gamers</a></li>
+       </ul>
+   </nav>
+    
+</body>
+</html>
