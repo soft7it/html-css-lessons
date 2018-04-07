@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Enter nav bar</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+    <style>
+        body{
+            margin: 0;
+        }
+        .one{
+            background-color: #efefef;
+        }
+
+        ul{
+            list-style: none;
+            padding: 10;
+            margin: 0;
+            width: 20%;
+        }
+
+        ul, li{
+            display: inline-block;
+            vertical-align: middle;
+        }
+        
+        li, a{
+            font-size: 14px;
+            color: #777;
+            font-family:'Geometria Light',sans-serif;
+        }
+
+        a{
+            text-decoration: none;
+        }
+        .two{
+            background-color: white;
+        }
+        .three{
+            background-color: black;            
+        }
+        .three>ul>li{
+            color: white;
+        }
+
+    
+    </style>
+</head>
+<body>
+    <nav class="one">
+    <ul class="first">
+        <li><a href="">servicii</a></li>
+        <li><a href="">livrare</a></li>
+        <li><a href="">achitare</a></li>
+        <li><a href="">contacte</a></li>
+    </ul>
+    <ul class="seco">
+        <li>magazinul online lucrează:</li>
+        <li>9:00</li>
+        <li>-</li>
+        <li>19:00</li>
+    </ul>
+    <ul class="tel">
+        <li>069649600</li>
+        <li>078228739</li>
+    </ul>
+   </nav>
+   <nav class="two">
+       <div><img src="" alt=""></div>
+       <div><input type="text"></div>
+       <div><a href="">RU</a></div>
+       <div>svg</div>
+       <div>svg</div>
+       <div>svg</div>
+       <div>svg</div>
+   </nav>
+   <nav class="three">
+       <ul>
+           <li>Telefoane</li>
+           <li>Tablete</li>
+           <li>Laptopuri</li>
+           <li>Calculatoare</li>
+           <li>Periferice</li>
+           <li>Televizoare</li>
+           <li>Gadgets</li>
+           <li>For Gamers</li>
+       </ul>
+   </nav>
+    
+</body>
+</html>
