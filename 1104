@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+  <style>
+  body{
+    background-color: #78b1eb;
+    margin: 0;
+    font-family: Roboto;
+    }
+
+    nav{
+      width: 96%;
+      display: table;
+      margin-left: 2%;
+      margin-top: 20px;
+    }
+
+    ul{
+      margin: 0px;
+      padding: 0px;
+      width: 100%;
+      display: table-row;
+    }
+
+    li{
+    list-style: none;
+    background-color: #fff;
+    padding: 20px;
+    /*float: left;*/
+    display: table-cell;
+    vertical-align: middle;
+    }
+
+      a{
+    text-decoration: none;
+    color: #78b1eb;
+
+    font-size: 18px;
+      }
+      li:last-child{
+        background-color: #5287dd;
+        width: 68px;
+        margin: 10px;
+        position: relative;
+
+      }
+
+      li:last-child:before{
+        content: "3";
+        position: absolute;
+        background-color: #78b1eb;
+        width: 40px;
+        height: 40px;
+        border-radius: 100%;
+        border: 2px solid white;
+        text-align: center;
+        line-height: 41px;
+        left: -21px;
+        top: 11px;
+
+      }
+      span{
+        width: 60px;
+        height: 4px;
+        background-color: white;
+        display: block;
+        margin: 4px;
+
+      }
+
+
+
+  </style>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="">Lorem 1</a></li>
+      <li><a href="">Lorem 2</a></li>
+      <li><a href="">Lorem 3</a></li>
+      <li><a href="">Lorem 4</a></li>
+      <li><a href="">Lorem 5</a></li>
+      <li><a href="">Lorem 6</a></li>
+      <li><a href="">Lorem 7</a></li>
+      <li><a href="">
+        <span></span>
+        <span></span>
+        <span></span></a></li>
+    </ul>
+  </nav>
+
+</body>
+</html>
