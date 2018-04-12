@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form Registru</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+
+    <style>
+        body{
+            background-color: #ffffff;
+            margin: 0%;
+            font-family: Roboto;
+        }
+
+        .back{
+            background-color: #4edbbf;            
+            border:1px solid rgb(97, 91, 91);
+            width: 420px;
+            height: 560px;
+            margin-left: 100px;
+            margin-top: 100px;
+            overflow: hidden;          
+        }
+
+        .sha{
+            width: 290px;
+            height: 565px;            
+            transform: skewY(45deg) skewX(-25deg);            
+            /*background-color: rgb(123, 246, 246); */
+            background-image: linear-gradient(to right,
+             #14856e, #2fa38c,
+              #62cfb8, #a0e2d5,
+               #c3f8ed);       
+            margin-left: 200px;
+            margin-top: 100px;  
+        }
+
+        .form{
+            background-color: rgb(239, 248, 248);
+            width: 264px;
+            height: 300px;
+            margin-left: 100px;
+            margin-top: 100px;            
+            transform: translateX(-32px) translateY(-678px); 
+            position: absolute;             
+        }
+
+        li{
+            list-style: none;
+            margin-top: 15px;
+            position: relative;
+            top: -60px;            
+        }
+
+        a{
+           text-decoration: none; 
+        }
+
+        li:first-child{
+            width: 70px;
+            height: 70px;
+            text-align: center;
+            margin:0%; 
+            padding: 0%;
+            background-color:yellow;        
+            position: relative;
+            left: 50px;
+            top: -55px;
+            border-radius: 100%;
+            font-size: 30px;
+        }
+
+        i{
+            position: relative;
+            top:15px;
+        }
+
+         span{
+             width: 20px;
+             height: 30px;
+             /*background-color: fuchsia;*/
+             position: absolute;
+             transform: rotate(45deg);
+             left: 33px;
+             top: 28px;             
+             background-image: linear-gradient(to right, #0a1d19, #37a38e, #62cfb8, #a0e2d5, #c3f8ed);
+
+
+         }
+
+
+        nav li:nth-child(2){
+            margin-left: 50px;
+            font-size: 20px;
+        }
+
+        input[type]{
+            text-align: center;
+            color:rgb(48, 43, 43);
+            background-color: rgb(202, 200, 200);
+            border: none;
+            height: 25px;
+        }
+
+        button{
+            width: 172px;
+            height: 35px;
+            background-color: rgb(79, 132, 230);
+            color: #ffffff;
+            border: none;
+            
+        }
+
+        a:last-child{
+            color: #f48942;
+            margin-left: 35px;
+            
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="back">
+        <div class="sha">
+
+        </div>
+            <nav class="form">
+                <ul>
+                    <li><i class="fa fa-pencil" aria-hidden="true"></i><span></span> </li>
+                    <li>Register</li>
+                    <li><input type="text" name="Username" placeholder="Username" id=""></li>
+                    <li><input type="password" name="Pasword" placeholder="Pasword" id=""></li>
+                    <li><input type="password" name="Confirm Pasword" placeholder="Confirm Pasword" id=""></li>
+                    <li><button type="submit"><b>REGISTER</b></button></li>
+                    <li><a href="">Member Login</a></li>
+                </ul>
+            </nav>
+        
+    </div>
+</body>
+</html>
