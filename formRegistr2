@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form Member</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+    <style>
+    body{
+        background-color: white;
+    }
+    .one{
+        background-color: rgb(252, 89, 25);
+        width: 600px;
+        height: 600px;
+        margin-top: 100px;
+        margin-left: 100px;
+        overflow: hidden;
+        
+        
+    }
+    .two{
+        width: 416px;
+        height: 525px;
+        transform: rotate(40deg); 
+        /*background-color: slateblue;*/
+        background: linear-gradient(to right, #cc3300 0%, #ffffff 100%);   
+        position: relative;       
+        left: 264px;
+        top: 178px;
+    }
+
+    ul{
+        background-color: white;
+        width: 300px;
+        height: 400px;
+        position: absolute;
+        left: 250px;
+        top: 190px;
+       
+    }
+
+    
+    </style>
+
+
+</head>
+<body>
+    <div class="one">
+        <div class="two"></div>
+            <ul>
+                <li>
+                    <a href="">1</a>
+                    <a href="">2</a>
+                    <a href=""></a>
+                    <a href=""></a>
+                    <a href=""></a>
+                    <a href=""></a>
+                </li>
+            </ul>
+        
+    </div>
+    
+</body>
+</html>
