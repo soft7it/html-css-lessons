@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Media</title>
+<link rel="stylesheet" href="media.css">
+
+</head>
+<body>
+
+<article id="profile">
+  <figure>
+    <img src="images/profile0.jpg" alt="">
+    <figcaption>
+      <h2>Maket Cssovici</h2>
+    </figcaption>
+  </figure><footer>
+  <h3>Lorem ispun dolor.</h3>
+
+  <ul>
+    <li>Lorem ipsum.</li>
+    <li>Delectus, ullam.</li>
+    <li>Rerum, repudiandae.</li>
+    <li>Quibusdam, et!</li>
+    <li>Neque, tenetur!</li>
+  </ul>
+</footer>
+
+</article>
+
+
+</body>
+</html>
+
+/*Stiluri comune*/
+/*Stiluri pentru Desktop*/
+/*Stiluri mobile*/
+body{
+  background-color: #333;
+}
+
+#profile{
+  border:1px solid red;
+}
+#profile figure, #profile footer{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#profile figure{
+  background-color: yellow;
+
+}
+
+#profile footer{
+  background-color: blue;
+  width: 60%;
+}
+
+#profile{
+  width: 90%;
+  margin: 5%;
+}
+
+figure{
+  margin:0px;
+  width: 40%;
+}
+
+#profile figure img{
+  width: 100%;
+}
+
+/*Stiluri mobile*/
+@media screen and (max-width:600px){
+  #profile figure, #profile footer{
+    display: block;
+    width: 100%;
+
+  }
