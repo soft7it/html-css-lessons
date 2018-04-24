@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+  <style>
+  body{
+    background-color: #78b1eb;
+    margin: 0;
+    font-family: Roboto;
+    }
+
+    nav{
+      width: 96%;
+      display: table;
+      margin-left: 2%;
+      margin-top: 20px;
+    }
+
+    ul{
+      margin: 0px;
+      padding: 0px;
+      width: 100%;
+      display: table-row;
+    }
+
+    li{
+    list-style: none;
+    background-color: #fff;
+    padding: 20px;
+    /*float: left;*/
+    display: table-cell;
+    vertical-align: middle;
+    }
+
+      a{
+    text-decoration: none;
+    color: #78b1eb;
+    font-size: 18px;
+      }
+
+      li:last-child{
+        background-color: #5287dd;
+        width: 68px;
+        margin: 10px;
+        position: relative;
+
+      }
+
+      li:last-child:before{
+        content: "3";
+        position: absolute;
+        background-color: #78b1eb;
+        width: 40px;
+        height: 40px;
+        border-radius: 100%;
+        border: 2px solid white;
+        text-align: center;
+        line-height: 41px;
+        left: -21px;
+        top: 11px;
+
+      }
+      span{
+        width: 60px;
+        height: 4px;
+        background-color: white;
+        display: block;
+        margin: 4px;
+
+      }
+
+        /*@media screen and (max-width: 400px) {
+            nav{
+      width: 96%;
+      display: block;
+      margin-left: 2%;
+      margin-top: 20px;
+    }
+
+    ul{
+      margin: 0px;
+      padding: 0px;
+      width: 100%;
+      display: table-cell;
+    }
+
+    li{
+    list-style: none;
+    background-color: #fff;
+    padding: 20px;
+    /*float: left;
+    display: block;
+    vertical-align: middle;
+    }
+    
+        }*/
+
+        @media screen and (min-width: 401px) and (max-width: 720px) {
+            li{
+      width: 25%;
+      display: block;
+      text-align: center;
+      vertical-align: middle;
+      /*margin-left: 2%;
+      margin-top: 20px;*/
+    }
+    li:last-child:before {
+    content: "5";
+    position: absolute;
+    background-color: #78b1eb;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    border: 2px solid white;
+    text-align: center;
+    line-height: 41px;
+    left: 310px;
+    top: -21px;
+}
+
+li:last-child {
+    background-color: #5287dd;
+    width: 94%;
+    position: relative;
+    top: -9px;
+    left: -10px;
+}
+
+span {
+    width: 60px;
+    height: 4px;
+    background-color: white;
+    display: block;
+    margin: 4px;
+    position: relative;
+    left: 276px;
+    top: -2px;
+}
+        }
+
+
+
+        @media screen and (min-width: 721px) and (max-width: 1280px) {
+            
+            li{
+      width: 50%;
+      display: block;
+      text-align: center;
+      vertical-align: middle;
+      /*margin-left: 2%;
+      margin-top: 20px;*/
+    }
+    li:last-child:before {
+    content: "5";
+    position: absolute;
+    background-color: #78b1eb;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    border: 2px solid white;
+    text-align: center;
+    line-height: 41px;
+    left: 310px;
+    top: -21px;
+}
+
+li:last-child {
+    background-color: #5287dd;
+    width: 94%;
+    position: relative;
+    top: -9px;
+    left: -10px;
+}
+
+span {
+    width: 60px;
+    height: 4px;
+    background-color: white;
+    display: block;
+    margin: 4px;
+    position: relative;
+    left: 276px;
+    top: -2px;
+}
+        }
+
+    @media screen and (min-width: 1281px) and (max-width: 1440px) {
+      li{
+      width: 75%;
+      display: block;
+      text-align: center;
+      vertical-align: middle;
+          }
+
+    li:last-child:before {
+    content: "5";
+    position: absolute;
+    background-color: #78b1eb;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    border: 2px solid white;
+    text-align: center;
+    line-height: 41px;
+    left: 310px;
+    top: -21px;
+    }
+
+    li:last-child {
+    background-color: #5287dd;
+    width: 94%;
+    position: relative;
+    top: -9px;
+    left: -10px;
+    }
+
+    span {
+    width: 60px;
+    height: 4px;
+    background-color: white;
+    display: block;
+    margin: 4px;
+    position: relative;
+    left: 276px;
+    top: -2px;
+    }
+    }
+
+  </style>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="">Lorem 1</a></li>
+      <li><a href="">Lorem 2</a></li>
+      <li><a href="">Lorem 3</a></li>
+      <li><a href="">Lorem 4</a></li>
+      <li><a href="">Lorem 5</a></li>
+      <li><a href="">Lorem 6</a></li>
+      <li><a href="">Lorem 7</a></li>
+      <li><a href="">
+        <span></span>
+        <span></span>
+        <span></span></a></li>
+    </ul>
+  </nav>
+
+</body>
+</html>
