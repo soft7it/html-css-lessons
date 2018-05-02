@@ -1,0 +1,150 @@
+nav{
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  nav div{
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  nav div:first-child{
+    width: 30%;
+  
+  }
+  
+  nav div:last-child{
+    width: 70%;
+    text-align: right;
+  
+  }
+  
+  nav div:last-child a{
+    margin:2.5%;
+  }
+  
+  .container{
+    margin-left: 8%;
+    margin-right: 8%;
+  }
+  
+  nav div:last-child a:first-child{
+    display: none;
+  }
+  
+  header iframe{
+    position: absolute;
+    top: 0;
+    z-index:-1;
+    width: 100%;
+    height: 100%;
+  }
+  header::after{
+    content:"Hello";
+    color: white;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+    background-image: url(images/grid.png);
+    z-index: -1;
+  
+  }
+
+  header .scren{
+    width: 100%;
+    height: 65%;
+    display: inline-block;
+}
+
+header .scren .one{
+position: absolute;
+top: 25%;
+left: 8%;
+width: 37%;
+height: 60%;
+border: 2px solid red;
+}
+
+header .scren .one h2{
+    text-align: left;
+    color: white;
+    font-size: 75px;
+    margin: 0;
+}
+
+header .scren .one h3{
+    color: white;
+    text-align: left;
+    font-size: 34px;
+    margin: 0;
+}
+
+header .scren .one article p{
+    color: white;
+    font-size: 21px;
+}
+
+header .scren .one .but,
+header .scren .one .buta{
+    width: 185px;
+    background-color: #ffc400;
+    height: 40px;
+    border-radius: 7px;
+    margin-left: 10px;
+    display: inline-flex;
+}
+
+header .scren .one a{
+    position: relative;
+    top: 8px;
+    left: 15px;
+    letter-spacing: 5px;
+    color: black;
+}
+
+header .scren .two{
+    background-color: rgba(20, 20,20, 0.65);
+    border-radius: 7px;
+    position: absolute;
+    top: 0%;
+    left: 160%;
+    width: 65%;
+    height: 75%;
+    display: table-row;
+}
+header .scren .two h3{
+    color: white;
+    font-size: 23px;
+    text-align: center;
+    margin-top: 30px;
+}
+header .scren .two input{
+    width: 84%;
+    height: 30px;
+    text-align: left;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 7%;
+}
+header .scren .two p{
+    color: white;
+    font-size: 17px;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+header .scren .two button{
+    width: 50%;
+    height: 40px;
+    letter-spacing: 3px;
+    background-color: #ffc400;
+    color: black;
+    margin-left: 25%;
+    border-radius: 5px;
+}
+header .scren .two button:hover,
+header .scren .one a:hover{
+    color: white;
+    transition: 0.5s linear;
+}
