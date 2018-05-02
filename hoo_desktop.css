@@ -1,0 +1,53 @@
+section{
+  margin-left: 5%;
+  margin-right: 5%;
+
+
+  }
+  #who h1, #who h3{
+    text-align: center;
+  }
+
+  #who h1{
+    position: relative;
+    top:0px;
+
+  }
+  #who h1:after{
+    content: "";
+    border-bottom: 2px solid black;
+    width: 200px;
+    display: block;
+    position: absolute;
+    left: 50%;
+    margin-left: -100px;
+
+  }
+
+  #who h3{
+    position: relative;
+    top:7px;
+  }
+
+  .col-left{
+    width: 60%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0;
+
+  }
+  .col-right{
+    width: 40%;
+    display: inline-block;
+    margin: 0;
+    vertical-align: top;
+
+  }
+
+  .tab{
+    border: 2px solid red;
+  }
+
+.tab.selected{
+  display: none;
+}
