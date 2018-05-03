@@ -1,7 +1,11 @@
+body, section{
+    background-color: rgb(235, 233, 229);
+    font-family: Roboto;
+
+}
 section{
     margin-left: 5%;
-    margin-right: 5%;
-  
+    margin-right: 5%;    
   
     }
     #who_price h1, #who_price h3{
@@ -28,25 +32,116 @@ section{
     #who_price h3{
       position: relative;
       top:-35px;
+      margin-bottom: 60px;
     }
 
     #who_price .bas,
     #who_price .standart,
     #who_price .advanced,
     #who_price .basic{
-    width: 294px;
-    height: 585px;
-    border-radius: 4px;
-    border: 1px solid #333;
-    display: inline-block;
-   }
+        width: 20%;
+        margin-right: 1%;
+        margin-left: 1%;  
+        height: 585px;
+        border-radius: 10px;
+        border: 1px solid #333;
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        background-color: floralwhite;
+     }
+     #who_price .advanced{
+         background-color: #ffc400;
+     }
+    #who_price .advanced .price{
+        background-color: #d9a701;
+        color: aliceblue;
+        height: 20%;
+        margin-top: 7%;   
+    }  
 
+    #who_price .bas .price,
+    #who_price .standart .price,    
+    #who_price .basic .price{
+        background-color: gainsboro;
+        height: 20%;
+        margin-top: 7%;        
+    }
+
+    #who_price .bas .price sup,
+    #who_price .standart .price sup,
+    #who_price .advanced .price sup,
+    #who_price .basic .price sup{
+        font-size: 30px;
+        position: relative;
+        top: -15px;;
+    }
+
+    #who_price .bas .price .color,
+    #who_price .standart .price .color,
+    #who_price .advanced .price .color,
+    #who_price .basic .price .color{
+        font-size: 80px;
+        position: relative;
+        top: 10px;
+    }
+
+    #who_price .bas ul,
+    #who_price .standart ul,
+    #who_price .advanced ul,
+    #who_price .basic ul{
+        list-style: none;
+        font-size: 20px;
+        margin: 0%;
+        
+    }
+
+    #who_price .bas ul li,
+    #who_price .standart ul li,
+    #who_price .advanced ul li,
+    #who_price .basic ul li{        
+        padding-top: 10%;
+        border-bottom: 1.2px solid #333;
+        margin-right: 10%;
+    }
+    
     #who_price .bas a,
     #who_price .standart a,
     #who_price .advanced a,
     #who_price .basic a{
+        font-size: 30px;
+        margin-top: 10%;
         display: block;
         text-align: center;
-        text-decoration: none;
+        text-decoration: none;        
+    }
+
+    #who_price .bas a:last-child b,
+    #who_price .standart a:last-child b,
+    #who_price .advanced a:last-child b,
+    #who_price .basic a:last-child b{
+        font-size: 15px;
+        background-color: #ffc400;
+        padding: 10px;
+        border-radius: 7px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+
+    #who_price .bas a:last-child b:hover ,
+    #who_price .standart a:last-child b:hover ,
+    /*#who_price .advanced a:last-child b:hover ,*/
+    #who_price .basic a:last-child b:hover {
+        color: rgb(248, 240, 223);
+        background-color: #a37e02b2;        
+    }
+
+    #who_price .advanced a:last-child b{
+        background-color: rgb(44, 39, 39);
+        color: beige;
+    }
+
+    #who_price .advanced a:last-child b:hover{
+        background-color: rgb(85, 79, 79);
         
     }
