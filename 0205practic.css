@@ -1,0 +1,52 @@
+section{
+    margin-left: 5%;
+    margin-right: 5%;
+  
+  
+    }
+    #who_price h1, #who_price h3{
+      text-align: center;
+    }
+  
+    #who_price h1{
+      position: relative;
+      top:45px;
+  
+    }
+    #who_price h1:after{
+      content: "";
+      border-bottom: 2px solid rgb(250, 164, 5);
+      width: 200px;
+      display: block;
+      position: absolute;
+      left: 50%;
+      margin-left: -100px;
+      margin-top: 10px;
+  
+    }
+  
+    #who_price h3{
+      position: relative;
+      top:-35px;
+    }
+
+    #who_price .bas,
+    #who_price .standart,
+    #who_price .advanced,
+    #who_price .basic{
+    width: 294px;
+    height: 585px;
+    border-radius: 4px;
+    border: 1px solid #333;
+    display: inline-block;
+   }
+
+    #who_price .bas a,
+    #who_price .standart a,
+    #who_price .advanced a,
+    #who_price .basic a{
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        
+    }
