@@ -35,6 +35,10 @@ section{
       margin-bottom: 60px;
     }
 
+    #who_price .secret{
+        text-align: center;
+    }
+
     #who_price .bas,
     #who_price .standart,
     #who_price .advanced,
