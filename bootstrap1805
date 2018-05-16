@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="comtainer">
+  <div id="photo-carosel" class="carousel slide" data-ride="carosel">
+<!--Container for sliders-->
+<div class="carousel-inner">
+  <div class="item active"><img src="images/1.jpeg" ></div>
+  <div class="item"><img src="images/2.jpeg" ></div>
+  <div class="item"><img src="images/600.jpeg"></div>
+</div>
+    <!--Container for sliders-->
+
+    <!--Controls-->
+    <div>
+    <a class="carousel-countrol left" href="photo-carosel" data-slide="prev">LEFT</a>
+<span class="glyphicon glyphicon-chevron-left"></span>
+    <a class="carousel-countrol" href="right photo-carosel" data-slide="next">RIGHT</a>
+<span class="glyphicon glyphicon-chevron-right"></span>
+    <!--Controls-->
+    </div>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
