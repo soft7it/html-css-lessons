@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<section class="container" >
+  <article class="col-lg-6 col-md-6 col-sm-9" >
+    <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est minima harum iure nemo laboriosam, officiis quibusdam autem tempore praesentium ipsam assumenda excepturi mollitia, beatae unde obcaecati rerum fugiat! Obcaecati, quis.</h2>
+    <5></5>
+    <img src="http://picsum.photos/400/300?id=1" class="img-responsive" alt="">
+    <div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe veritatis enim accusamus, commodi delectus labore nemo dicta. Porro adipisci, impedit iure id maxime omnis veritatis suscipit ullam cupiditate tempore, amet quasi ipsum dolor laboriosam. Facilis, suscipit eligendi fugiat velit iure, eos omnis sed numquam adipisci rerum ullam. Ipsum, laboriosam, velit!</p>
+      <p>Illum molestiae reprehenderit vitae repudiandae praesentium quibusdam commodi accusamus, suscipit nostrum voluptate pariatur dolorem nihil quae dolore vel eligendi! Qui at, repellendus dolorem nemo aspernatur, quo numquam rem enim delectus placeat vero, eligendi libero minima officia rerum sint sunt itaque totam, velit quas autem mollitia dicta voluptates beatae. Fugit, nisi!</p>
+      <p>Nemo, velit, pariatur? Quasi voluptates eligendi sit ab similique perferendis, nulla optio commodi dolores eveniet ipsa alias natus, atque maxime quaerat accusamus doloribus tempore quisquam? Non voluptate, doloribus fugiat accusamus alias corporis. Est, similique dolorem quos, aut deserunt animi accusamus modi itaque rem tenetur! Eveniet obcaecati ab vitae repudiandae? Beatae.</p>
+    </div>
+  </article>
+  <article class="col-lg-6 col-md-6 col-sm-9" >
+    <h2>Rem fugiat repudiandae et magni ea sint accusantium, inventore voluptatibus provident sapiente, voluptate est dolorem impedit laborum ipsam saepe possimus aut at labore cumque libero, minima! Necessitatibus, reiciendis expedita voluptatibus!</h2>
+
+    <img src="http://picsum.photos/400/300?id=11" class="img-responsive" alt="">
+    <div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta quae, magni, cumque aspernatur nulla distinctio laboriosam nostrum consectetur, officiis nam aliquam, eligendi error maxime modi dignissimos veritatis nisi. Modi at totam, maxime minima? Blanditiis architecto esse amet, repellat aliquam non harum. Asperiores mollitia ipsa dignissimos quaerat enim temporibus, consequuntur tempore.</p>
+      <p>Facilis exercitationem aliquam asperiores alias labore illo tempora porro libero minus, ipsa natus fugit excepturi laboriosam nam vel saepe, ducimus voluptas sequi veritatis ea! Quidem animi ut deleniti nam magnam nisi autem sequi molestias iste, amet reprehenderit. Obcaecati sit, exercitationem aspernatur necessitatibus magnam delectus, laborum voluptatem, amet dolorum autem expedita.</p>
+      <p>Nobis, nisi assumenda consequuntur, cumque maiores laborum consectetur ea labore quisquam amet dolore nulla in fugit minus aliquam obcaecati magni at dolores necessitatibus hic corporis fuga. Unde sunt quia atque sint assumenda similique, nulla eligendi excepturi, beatae nostrum ratione voluptatibus culpa nesciunt minima placeat maiores id, ullam pariatur incidunt corporis.</p>
+    </div>
+  </article>
+<div class="col-sm-3 hidden-lg hidden-md" >
+  <a href="" class="btn btn-sm btn-default btn-block"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum magnam voluptate nam laborum, eum magni a nesciunt est quaerat enim aperiam provident ut quis culpa, officia consequuntur suscipit inventore itaque!</span><span>Neque, quibusdam, laudantium. Autem dicta laborum totam! Eligendi voluptas corrupti officiis odio. Voluptates reprehenderit voluptate animi nemo, est nulla neque fuga perspiciatis dicta maiores. Temporibus, aperiam, nihil. Accusantium, alias voluptate.</span></a>
+  <a href="" class="btn btn-sm btn-default btn-block"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem laudantium error aliquam nulla vitae cupiditate eos animi hic repudiandae voluptate magni natus ipsam, commodi, corporis excepturi voluptas? Assumenda, fuga, dolores!</span><span>Aut asperiores perferendis molestiae enim magnam repellat eius expedita esse amet, aliquid facilis ea itaque laboriosam, dolore, non qui illum voluptatum consequuntur. Accusamus ex, aut quis corporis asperiores doloribus minus.</span></a>
+  <a href="" class="btn btn-sm btn-default btn-block"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est ratione officiis eius ab reiciendis cumque eligendi, maxime nulla, illo quidem dignissimos dicta eveniet, corporis recusandae neque, omnis nobis porro aliquam!</span><span>Eos similique at voluptatum impedit, ipsam atque enim minus consequuntur. Vero obcaecati nesciunt ullam, eligendi error fuga velit pariatur dolore laudantium fugit tenetur, provident alias, iure est aut aspernatur voluptatem.</span></a>
+  <a href="" class="btn btn-sm btn-default btn-block"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque iure nobis eveniet delectus aliquid minima perferendis veniam accusamus doloremque asperiores, fugit omnis. Totam harum corrupti sint quas sapiente? Pariatur, repudiandae.</span><span>Cum mollitia culpa tempore omnis laborum harum, illo aspernatur quidem maxime aut! A nobis nam omnis facere enim rem quidem odio inventore quibusdam quod. Impedit magnam, est ipsum dolorum fuga!</span></a>
+  <a href="" class="btn btn-sm btn-default btn-block"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex laborum vel quidem, fuga enim eligendi natus, sint. Cumque impedit ipsa quia! Dicta placeat deleniti repellat, nesciunt debitis ipsam laborum hic.</span><span>Architecto, aperiam in error sint distinctio aut sequi quod officiis reprehenderit sapiente omnis unde at totam asperiores esse deleniti facilis neque, dicta nesciunt labore quia nihil animi optio. Fuga, explicabo?</span></a>
+</div>
+
+</section>
+<div class="foot-wrapper">
+<footer class="container" >
+  <div class="col-sm-3">
+    <ul class="nav nav-pills nav-stacked">
+      <li><a href="">Lorem ipsum.</a></li>
+      <li><a href="">Sapiente, iste!</a></li>
+      <li><a href="">Asperiores, et.</a></li>
+      <li><a href="">Quibusdam, error.</a></li>
+      <li><a href="">Id, ullam.</a></li>
+    </ul>
+  </div>
+  <div  class="col-sm-3">
+    <ul class="nav nav-pills nav-stacked">
+      <li><a href="">Lorem ipsum.</a></li>
+      <li><a href="">Eos, officiis!</a></li>
+      <li><a href="">Sint, tempora.</a></li>
+      <li><a href="">Libero, dolorem!</a></li>
+  <div class="dropup">
+      <li class="btn btn-default dropdown-toggle" data-toggle="dropdown"><a href="">Cupiditate, libero.</a></li>
+      <ul class="dropdown-menu">
+    <li><a href="#">HTML</a></li>
+    <li><a href="#">CSS</a></li>
+    <li><a href="#">JavaScript</a></li>
+  </ul>
+
+</div>
+    </ul>
+  </div>
+</footer>
+</div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </body>
+  </html>
+  
+  
+  @media (min-width: 1200px)
+.container {
+    width: 1300px;
+}
+
+.foot-wrapper{
+    background-color: #eee;
+}
